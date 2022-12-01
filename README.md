@@ -3,4 +3,4 @@ this client, so I can play on anarchy servers and say this is something that I'v
 the server rules (Unless it's a p2w server, then nuke it for all I care)**
 
 # Mirage
-An open source cheat designed for anarchy servers.
+An open source cheat designed for anarchy and those pesky p2w servers.

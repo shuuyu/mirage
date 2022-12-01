@@ -18,4 +18,8 @@ tasks.wrapper {
 allprojects {
     group = "live.shuuyu"
     version = "1.0.0"
+
+    repositories {
+        mavenCentral()
+    }
 }
