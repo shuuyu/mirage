@@ -31,3 +31,7 @@ tasks {
         targetCompatibility = JavaVersion.VERSION_17.toString()
     }
 }
+
+kotlin.jvmToolchain {
+    this.languageVersion.set(JavaLanguageVersion.of(17))
+}
