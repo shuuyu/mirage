@@ -8,12 +8,20 @@ plugins {
     id("com.github.johnrengelman.shadow")
 }
 
-dependencies {
+val luv: Configuration by configurations.creating {
+    configurations.implementation.get().extendsFrom(this)
+    isTransitive = false
+}
 
+dependencies {
+    val lwjgl = "3.3.1"
+    luv("org.lwjgl:lwjgl:$lwjgl")
+    luv("org.lwjgl:lwjgl:$lwjgl:natives-windows")
 }
 
 tasks {
     "shadowJar"(ShadowJar::class) {
+        configurations = listOf(luv)
         duplicatesStrategy = EXCLUDE
     }
 

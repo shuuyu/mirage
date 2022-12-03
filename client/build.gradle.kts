@@ -13,10 +13,12 @@ quiltflower {
 }
 
 loom {
+    silentMojangMappingsLicense()
     runConfigs {
         getByName("client") {
             isIdeConfigGenerated = true
         }
+        remove(getByName("server"))
     }
 }
 

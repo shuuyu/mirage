@@ -10,7 +10,10 @@ import java.util.Locale
  * @param category The category of which the module is going to be located at.
  * @param experimental Marks the given module as WIP
  */
-@Deprecated("Why did I add this again? Oh right, because I am dumb.", level = DeprecationLevel.ERROR)
+@Deprecated(
+    message = "Why did I add this again? Oh right, because I am dumb.",
+    level = DeprecationLevel.ERROR
+)
 @Retention(AnnotationRetention.RUNTIME)
 @Target(AnnotationTarget.FIELD, AnnotationTarget.FUNCTION)
 annotation class Property(
