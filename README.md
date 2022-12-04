@@ -4,3 +4,8 @@ the server rules (Unless it's a p2w server, then nuke it for all I care)**
 
 # Mirage
 An open source cheat designed for anarchy and those pesky p2w servers.
+
+This is not considered a client, as this is mainly just a mod that enables cheats, rather than being proprietary and being
+unable to alter. Due to that, please refrain from calling this "Mirage Client" and just call it "Mirage mod or something".
+
+Also wtf you're a cheater?????? That's wild :shocked:!
